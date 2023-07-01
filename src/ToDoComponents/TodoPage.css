@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(16, 49, 78);
+    color: white;
+}
+.parent-div{
+    height:100vh;
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+.fav-btn{
+    padding:11px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border:1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+img{
+    height : 150px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 10px;
+    box-sizing: border-box;   
+}
+
+.showItems{
+    display: flex;
+}
+.eachItemms{
+    border-radius: 5px;
+    width: 350px;
+    margin-top: 3px;
+    height: 40px;
+    border: 1px solid black;
+    color: black;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+}
